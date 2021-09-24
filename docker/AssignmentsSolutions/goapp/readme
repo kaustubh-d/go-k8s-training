@@ -1,0 +1,11 @@
+$ docker build -t kaustubhd/hello:velotio.v1  . --platform linux/amd64
+
+$ docker run --platform linux/amd64  -t kaustubhd/hello:velotio               
+Hello World!!!
+
+$ docker run --platform linux/amd64  -t kaustubhd/hello:velotio --input Kaustubh 
+Kaustubh
+
+$ docker run --platform linux/amd64  -t kaustubhd/hello:velotio --input 'Welcome to Velotio!!'
+Welcome to Velotio!!
+
